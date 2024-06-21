@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/firstFragment2"
-        android:name="com.example.lesson2.ui.fragments.FirstFragment"
+        android:name="com.example.lesson2.ui.fragments.onborad.FirstFragment"
         android:label="fragment_first"
         tools:layout="@layout/fragment_first" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/secondFragment2"
-        android:name="com.example.lesson2.ui.fragments.SecondFragment"
+        android:name="com.example.lesson2.ui.fragments.onborad.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
         <action
@@ -24,11 +24,11 @@
             app:destination="@id/thirdFragment2" />
         <argument
             android:name="model"
-            app:argType="com.example.lesson2.data.Model" />
+            app:argType="com.example.lesson2.data.models.Model" />
     </fragment>
     <fragment
         android:id="@+id/thirdFragment2"
-        android:name="com.example.lesson2.ui.fragments.ThirdFragment"
+        android:name="com.example.lesson2.ui.fragments.onborad.ThirdFragment"
         android:label="fragment_third"
         tools:layout="@layout/fragment_third" />
 </navigation>

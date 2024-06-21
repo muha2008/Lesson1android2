@@ -36,7 +36,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    buildFeatures{
+    buildFeatures {
         viewBinding = true
     }
 }
@@ -54,4 +54,11 @@ dependencies {
     val navVersion = "2.7.7"
     implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")
     implementation("androidx.navigation:navigation-ui-ktx:$navVersion")
+
+    //Lottie animasion
+    val lottieVersion = "4.2.0"
+    implementation ("com.airbnb.android:lottie:$lottieVersion")
+
+    //Dots Indicator
+    implementation ("com.tbuonomo:dotsindicator:4.3")
 }

@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@color/orange"
-    tools:context=".ui.fragments.FirstFragment">
+    tools:context=".ui.fragments.onborad.FirstFragment">
 
     <EditText
         android:id="@+id/et_name"

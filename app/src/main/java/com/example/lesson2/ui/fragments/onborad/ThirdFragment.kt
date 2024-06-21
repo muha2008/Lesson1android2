@@ -1,4 +1,4 @@
-package com.example.lesson2.ui.fragments
+package com.example.lesson2.ui.fragments.onborad
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

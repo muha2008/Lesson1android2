@@ -1,4 +1,4 @@
-package com.example.lesson2.ui.fragments
+package com.example.lesson2.ui.fragments.onborad
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,9 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.lesson2.R
 import com.example.lesson2.databinding.FragmentFirstBinding
-import com.example.lesson2.data.Model
 
 class FirstFragment : Fragment() {
 
